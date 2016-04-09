@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-mockr",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simple rollup plugin for creating aliases for modules.",
   "main": "dist/rollup-plugin-mockr.js",
   "jsnext:main": "dist/rollup-plugin-mockr.es2015.js",
@@ -19,7 +19,7 @@
     "url": "git+https://github.com/Comandeer/rollup-plugin-mockr.git"
   },
   "files": [
-  	"dist"
+    "dist"
   ],
   "keywords": [
     "rollup",
