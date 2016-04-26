@@ -31,6 +31,28 @@ describe( 'mockr', () => {
 		} );
 	} );
 
+	it( 'supports absolute paths', () => {
+		return rollup.rollup( {
+			entry: './tests/support/index.js',
+
+			plugins: [
+				mockr( {
+					'./tests/support/index.js': {
+						'test1': `${cwd}/tests/support/mock1.js`,
+						'./test2': `${cwd}/tests/support/mock2.js`
+					}
+				} )
+			]
+		} ).then( ( stats ) => {
+			const modules = stats.modules;
+			
+			expect( modules[ 0 ].id ).to.equal( `${cwd}/tests/support/mock1.js` );
+			expect( modules[ 1 ].id ).to.equal( `${cwd}/tests/support/mock2.js` );
+		} );
+	} );
+
+
+
 	it( 'allows to specify custom file extension', () => {
 		return rollup.rollup( {
 			entry: './tests/support/index.js',

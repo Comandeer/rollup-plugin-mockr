@@ -34,6 +34,8 @@ export default function mockr( options = {} ) {
 
 				return `${path.resolve( importerDir, mocked )}${path.extname( mocked ) ? '' : fileExtension}`;
 			}
+
+			return mocked;
 		}
 	};
 }
