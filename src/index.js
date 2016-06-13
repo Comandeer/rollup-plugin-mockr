@@ -1,6 +1,6 @@
 'use strict';
 
-const path = require( 'path' );
+import path from 'path';
 
 export default function mockr( options = {} ) {
 	const modules = options.modules || options;

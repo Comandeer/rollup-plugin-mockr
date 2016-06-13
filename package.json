@@ -12,7 +12,7 @@
     "test": "mocha tests/index.js",
     "preversion": "npm test",
     "postversion": "git push origin && git push origin --tags",
-    "prepublish": "npm run build"
+    "prepublish": "in-publish && npm run build || exit 0"
   },
   "repository": {
     "type": "git",
@@ -37,9 +37,10 @@
     "babel-preset-es2015-rollup": "^1.1.1",
     "chai": "^3.5.0",
     "eslint": "^2.5.1",
+    "in-publish": "^2.0.0",
     "mocha": "^2.4.5",
     "rimraf": "^2.5.2",
     "rollup": "^0.26.0",
-    "rollup-babel-lib-bundler": "^2.4.0"
+    "rollup-babel-lib-bundler": "^3.0.1"
   }
 }
