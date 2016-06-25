@@ -2,10 +2,15 @@
 
 ---
 
+## 1.0.3
+
+* Updated dependencies.
+* Fixed typos in changelog.
+
 ## 1.0.2
 
 * Updated dependencies.
-* Added this changelod.
+* Added this changelog.
 
 ## 1.0.1
 
