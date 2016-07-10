@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-mockr",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple rollup plugin for creating aliases for modules.",
   "main": "dist/rollup-plugin-mockr.js",
   "jsnext:main": "dist/rollup-plugin-mockr.es2015.js",
