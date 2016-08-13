@@ -2,6 +2,11 @@
 
 ---
 
+## 1.0.5
+
+* Updated dependencies.
+* Updated Babel configuration.
+
 ## 1.0.4
 
 * Updated dependencies.
