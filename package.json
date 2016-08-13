@@ -39,7 +39,7 @@
     "chai": "^3.5.0",
     "eslint": "^3.0.1",
     "in-publish": "^2.0.0",
-    "mocha": "^2.4.5",
+    "mocha": "^3.0.2",
     "rimraf": "^2.5.2",
     "rollup": "^0.34.0",
     "rollup-babel-lib-bundler": "^3.0.1"
